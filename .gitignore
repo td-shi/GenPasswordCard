@@ -1,0 +1,22 @@
+# .gitignore
+
+# Ignore All
+
+*
+!*/
+
+# Allow List
+
+!.gitignore
+!.gitattributes
+!.git/*
+!.github/*
+!*.txt
+!*.md
+!*.py
+!*.svg
+
+# Deny List
+
+[1-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]*_card-front.svg
+[1-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]*_card-back.svg
